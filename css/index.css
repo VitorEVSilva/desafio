@@ -1,0 +1,120 @@
+body {
+    
+    background: rgb(119, 114, 114) !important;
+    margin : 0;
+    letter-spacing: -.03em;
+    color: #fff;
+    font-size: 16px;
+}
+
+.body{
+    padding:100px 0 30px 0;
+    
+}
+.inner-body {
+    text-align: center;
+    padding: 50px 10px;
+    width: 70%;
+}
+
+.title {
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.26)),url(../image/background.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.ratedMoviesHead{
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.movieBox {
+    background: rgb(105, 97, 97);
+    padding: 15px;
+    border-radius: 3px; 
+}
+
+.img {
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+.browse-movie-bottom{
+    margin: 0 10px;;
+    max-width: 220px;
+    text-align: left;
+}
+
+.browse-movie-title{
+    font-size: 0.95em;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    transition: color .15s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+.browse-movie-year {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline;
+    color: #fff;
+    background: rgb(27, 160, 116);;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.box{
+    padding: 10px;  
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0) !important;    
+}
+
+
+@media screen and (max-width: 960px) {
+    .hidden-sm{
+        display: none;
+        
+    }
+}
+
+.row {
+    padding : 20px 0;
+} 
+
+#topMovies1 img, #topMovies2 img, #topMovies3 img, #topMovies4 img, #topMovies5 img{
+    width: 100%;
+} 
+
